@@ -35,7 +35,6 @@
 *.xml
 *.old
 *.htaccess
-acce*
 error_log*
 access_log*
 *.DS_Store

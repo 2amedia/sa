@@ -1280,11 +1280,13 @@ http://flickity.metafizzy.co
 	display: -ms-flex;
 	display: flex;
 	flex-wrap: wrap;
-	/*padding: 30px 15px;*/
+	margin-bottom: 30px;
 	border-bottom: solid 2px #e9e9e9;
 	box-shadow: 0px 0px 2px -1px grey;
 	position: relative;
-
+}
+.sct-page-card .page-card.open{
+	margin-bottom: 60px;
 }
 .sct-page-card .page-card .left{
 	padding: 30px 15px;
@@ -1351,7 +1353,23 @@ http://flickity.metafizzy.co
 	padding-left: 15px;
 	margin-right: -1px;
 	transition: 300ms;
-
+}
+.sct-page-card .page-card .info-list li::before{
+	content: '';
+	transition: 300ms;
+	display: inline-block;
+	float: left;
+	margin-top: 14px;
+	margin-right: 10px;
+	border: solid grey 1px;
+	transform: rotate(45deg);
+	width: 6px;
+	height: 6px;
+	border-top: 0;
+	border-left: 0;
+}
+.sct-page-card .page-card .info-list li:hover::before{
+	transform: rotate(-45deg);
 }
 .sct-page-card .page-card:not(.open) .info-list li:hover {
 	padding-left: 30px;
@@ -1391,6 +1409,7 @@ http://flickity.metafizzy.co
 
 .sct-page-card .page-card .slider-wrap{
 	position: absolute;
+	z-index: 1;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -1424,12 +1443,13 @@ http://flickity.metafizzy.co
 	right: 10px;
 	top: calc(50% + 30px);
 	left: auto;
+	z-index: 22;
 }
 
 .sct-page-card .flickity-prev-next-button.next{
 	top: calc(50% - 30px);
+	z-index: 22;
 	right: 10px;
-
 }
 .sct-page-card {
 	/*padding-bottom: 20px;*/
@@ -1489,12 +1509,14 @@ http://flickity.metafizzy.co
 	transition: 300ms;
 	width: 100%;
 }
-
+.sct-page-card .page-card.open .mini br{
+	display: none;
+}
 .sct-page-card .page-card.open .full{
 	opacity: 1;
 	max-height: 700px;
 	position: static;
-	margin: 20px;
+	margin-bottom: 20px;
 }
 .sct-page-card .page-card.open .slider-wrap{
 	position: relative;
