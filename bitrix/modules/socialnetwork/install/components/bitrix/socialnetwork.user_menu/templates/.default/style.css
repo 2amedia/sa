@@ -1,0 +1,94 @@
+.sonet-user-menu-tabs-mltl 
+{
+	list-style:none; 
+	padding:0; 
+	margin:0; 
+	height:32px;
+	display:inline;
+}
+.sonet-user-menu-tabs-mltl li 
+{
+	display:block; 
+	float:left; 
+	margin:0; 
+	padding-bottom:3px;
+}
+.sonet-user-menu-tabs-mltl li a 
+{ 
+	text-decoration:none; 
+	position:relative;
+}
+
+.sonet-user-menu-tabs-mltl li a b.p1 
+{ 
+	width:3px; 
+	height:32px; 
+	background:url(images/tableft.gif) no-repeat; 
+	float:left; 
+	cursor:pointer; 
+	cursor: hand;
+}
+.sonet-user-menu-tabs-mltl li a b.p2 
+{ 
+	height:32px; 
+	padding:0 10px; 
+	background:url(images/tab_bg.gif) repeat-x; 
+	float:left; 
+	text-align:center; 
+	line-height:32px; 
+	color:#697D87; 
+	font-weight:bold; 
+	font-family:verdana; 
+	font-size:13px; 
+	cursor:pointer; 
+	cursor: hand;
+}
+.sonet-user-menu-tabs-mltl li a b.p3 
+{ 
+	width:3px; 
+	height:32px; 
+	background:url(images/tabright.gif) bottom left no-repeat; 
+	float:left; 
+	position:relative; 
+	cursor:pointer; 
+	cursor: hand; 
+	padding-right:3px;
+}
+
+.sonet-user-menu-tabs-mltl li a.selected b.p1
+{
+	position:relative; 
+	background:url(images/tableft-selected.gif) no-repeat; 
+	cursor:pointer; 
+	cursor: hand;
+}
+.sonet-user-menu-tabs-mltl li a.selected b.p2
+{
+	position:relative; 
+	background:url(images/tab_bg_selected.gif) repeat-x; 
+	color:#000; 
+	cursor:pointer; 
+	cursor: hand;
+}
+.sonet-user-menu-tabs-mltl li a.selected b.p3
+{
+	position:relative; 
+	background:url(images/tabright-selected.gif) left no-repeat; 
+	cursor:pointer; 
+	cursor: hand; 
+	padding-right:3px;
+}
+
+div.sonet-user-menu-tabdiv-mltl
+{
+	width:100%; 
+	border:0;
+	padding: 0;
+	margin: 0;
+	display: block; 
+}
+
+div.sonet-user-menu-menu-clear-left-mltl
+{
+    clear:left;
+}

@@ -1,0 +1,33 @@
+<?
+$MESS["BPC_PATH_TO_BLOG"] = "Vorlage des Pfads zur Seite der Nachrichten";
+$MESS["BPC_PATH_TO_USER"] = "Vorlage des Pfads zum Nutzerprofil";
+$MESS["BPC_PATH_TO_SMILE"] = "Pfad zum Smiley-Verzeichnis, relativ zum Root-Verzeichnis";
+$MESS["BPC_USER_VAR"] = "Variable fьr die Nutzer-ID";
+$MESS["BPC_POST_VAR"] = "Variable fьr die Nachricht-ID";
+$MESS["BPC_PAGE_VAR"] = "Variable fьr die Seite";
+$MESS["BPC_ID"] = "Nachricht-ID";
+$MESS["B_VARIABLE_ALIASES"] = "Variablen";
+$MESS["BC_DATE_TIME_FORMAT"] = "Datum- und Zeitformat";
+$MESS["BPC_COMMENT_ID_VAR"] = "Variable der Kommentar-ID";
+$MESS["SHOW_RATING"] = "Ranking aktivieren";
+$MESS["SHOW_RATING_CONFIG"] = "StandardmдЯig";
+$MESS["RATING_TYPE"] = "Design der Ranking-Schaltflдchen";
+$MESS["RATING_TYPE_CONFIG"] = "StandardmдЯig";
+$MESS["RATING_TYPE_STANDART_TEXT"] = "Gefдllt mir / Gefдllt mir nicht (Text)";
+$MESS["RATING_TYPE_STANDART_GRAPHIC"] = "Gefдllt mir / Gefдllt mir nicht (Bild)";
+$MESS["RATING_TYPE_LIKE_TEXT"] = "Gefдllt mir (Text)";
+$MESS["RATING_TYPE_LIKE_GRAPHIC"] = "Gefдllt mir (Bild)";
+$MESS["BPC_IMAGE_MAX_WIDTH"] = "Maximal zulдssige Bildbreite";
+$MESS["BPC_IMAGE_MAX_HEIGHT"] = "Maximal zulдssige Bildhцhe";
+$MESS["BPC_ALLOW_VIDEO"] = "Videos in Kommentaren erlauben";
+$MESS["BPC_SHOW_SPAM"] = "Den Link zu allen Nutzerkommentaren den Administratoren anzeigen";
+$MESS["BPC_NO_URL_IN_COMMENTS"] = "Links in Kommentaren deaktivieren";
+$MESS["BPC_NO_URL_IN_COMMENTS_N"] = "Niemandem";
+$MESS["BPC_NO_URL_IN_COMMENTS_A"] = "Anonymen Nutzern";
+$MESS["BPC_NO_URL_IN_COMMENTS_L"] = "Allen";
+$MESS["BPC_NO_URL_IN_COMMENTS_AUTHORITY"] = "Minimale Autoritдt, mit der Nutzer Links in die Kommentare einfьgen kцnnen";
+$MESS["BPC_ALLOW_IMAGE_UPLOAD"] = "Bilder in Kommentaren erlauben fьr";
+$MESS["BPC_ALLOW_IMAGE_UPLOAD_A"] = "alle";
+$MESS["BPC_ALLOW_IMAGE_UPLOAD_R"] = "Registrierte Nutzer";
+$MESS["BPC_ALLOW_IMAGE_UPLOAD_N"] = "Niemanden";
+?>

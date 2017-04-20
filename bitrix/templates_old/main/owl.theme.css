@@ -1,0 +1,181 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+
+.owl-main-wrap .owl-theme--arrows .owl-controls .owl-buttons div {
+    display: none;
+    position: absolute;
+    top: 50%;
+    border-radius: 0;
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 0.5;
+    padding: 0;
+    margin: -28px 0 0 0;
+    width: 56px;
+    height: 58px;
+    color: transparent;
+    text-indent: -9999em;
+}
+.owl-main-wrap:hover .owl-theme--arrows .owl-controls .owl-buttons div {
+    display: block;
+}
+.owl-theme--arrows .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+    background: url("slider-arrow-left.png") no-repeat;
+}
+
+.owl-theme--arrows .owl-controls .owl-buttons .owl-next {
+    right: 0;
+    background: url("slider-arrow-right.png") no-repeat;
+}
+
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1 !important;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+/* component fix*/
+.owl-main-wrap {
+    position: relative;
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+.owl-main-wrap__inner {
+    padding: 0;
+}
+.owl-carousel__item-link {
+    display: block;
+}
+.owl-main-wrap .owl-theme--responsive .adaptive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.owl-main-wrap .owl-theme--center .adaptive-img {
+    margin: 0 auto;
+}
+.owl-carousel__item-descr {
+    position: absolute;
+    width: 100%;
+    padding: 8px 10px 10px;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-transition-property: padding-bottom;
+    -webkit-transition-duration: .3s;
+    -moz-transition: padding-bottom .3s;
+    -o-transition: padding-bottom .3s;
+    transition: padding-bottom .3s;
+}
+.owl-main-wrap:hover .owl-carousel__item-descr {
+    padding-bottom: 24px;
+}
+.owl-carousel__object-item {
+    position: relative;
+}
+.owl-carousel__object-item__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.owl-carousel__object-item figure {
+    display: block;
+}
+.owl-dev-link {
+    display: block;
+    color: rgba(126, 126, 126, 0.7);
+    font-size: 10px;
+    text-decoration: none;
+    text-align: right;
+}
+.owl-main-wrap:hover .owl-dev-link:hover {
+    color: rgba(141, 173, 255, 1);
+    text-decoration: underline;
+}
+
+/* media query */
+@media screen and (max-width: 560px) {
+    .owl-main-wrap .owl-theme--arrows .owl-controls .owl-buttons div {
+        display: none;
+    }
+    .owl-carousel__item-descr {
+        display: none;
+    }
+}

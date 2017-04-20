@@ -1,0 +1,41 @@
+#исключаем некоторые папки из bitrix
+/bitrix/backup/
+/bitrix/cache/
+/bitrix/crontab/
+/bitrix/managed_cache/
+/bitrix/managed_flags/
+/bitrix/php_interface/crontab/
+/bitrix/php_interface/dbconn.php
+/bitrix/stack_cache/
+/bitrix/catalog_export/
+/bitrix/html_pages/
+/bitrix/license_key.php
+/bitrix/.settings.php
+/bitrix/.settings_extra.php
+/bitrix/updates/
+
+#исключаем папку upload
+/upload/
+/upload-old/
+
+#файлы других проектов
+
+
+
+#исключаем типы файлов
+/urlrewrite.php
+
+*.sql
+*.csv
+*.txt
+*.log
+*.dt
+*.html
+*.htm
+*.xml
+*.old
+*.htaccess
+acce*
+error_log*
+access_log*
+*.DS_Store

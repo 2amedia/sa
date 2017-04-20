@@ -1,0 +1,32 @@
+<?
+$MESS["ADV_NIVO_PARAMETER_NO"] = "(nicht definiert)";
+$MESS["ADV_NIVO_PARAMETER_IMG"] = "Diabild";
+$MESS["ADV_NIVO_PARAMETER_LINK_URL"] = "Dialink";
+$MESS["ADV_NIVO_PARAMETER_LINK_TITLE"] = "Tooltip-Text";
+$MESS["ADV_NIVO_PARAMETER_LINK_TARGET"] = "Linkziel";
+$MESS["ADV_NIVO_PARAMETER_LINK_TARGET_SELF"] = "Aktuelles Fenster";
+$MESS["ADV_NIVO_PARAMETER_LINK_TARGET_BLANK"] = "Neues Fenster";
+$MESS["ADV_NIVO_PARAMETER_LINK_TARGET_PARENT"] = "Ьbergeordnetes Frameset";
+$MESS["ADV_NIVO_PARAMETER_LINK_TARGET_TOP"] = "Browser-Topfenster";
+$MESS["ADV_NIVO_PARAMETER_HEADING"] = "Ьberschrift";
+$MESS["ADV_NIVO_PARAMETER_PRESET"] = "Banner-Vorlage";
+$MESS["ADV_NIVO_PARAMETER_HEADING_SHOW"] = "Ьberschrift anzeigen";
+$MESS["ADV_NIVO_PARAMETER_HEADING_TEXT"] = "Test der Ьberschrift";
+$MESS["ADV_NIVO_PARAMETER_FONT_SIZE"] = "TestgrцЯe";
+$MESS["ADV_NIVO_PARAMETER_FONT_COLOR"] = "Textfarbe";
+$MESS["ADV_NIVO_PARAMETER_BG_COLOR"] = "Hintergrundfarbe";
+$MESS["ADV_NIVO_PARAMETER_BG_OPACITY"] = "Hintergrundopazitдt";
+$MESS["ADV_NIVO_PARAMETER_ANNOUNCEMENT_SHOW"] = "Beschreibung anzeigen";
+$MESS["ADV_NIVO_PARAMETER_ANNOUNCEMENT_TEXT"] = "Beschreibungstext";
+$MESS["ADV_NIVO_PARAMETER_ANNOUNCEMENT"] = "Beschreibung";
+$MESS["ADV_NIVO_PARAMETER_ANNOUNCEMENT_MOBILE_HIDE"] = "Beschreibung auf Telefonen ausblenden";
+$MESS["ADV_NIVO_PARAMETER_BUTTON"] = "Schaltflдche anzeigen";
+$MESS["ADV_NIVO_PARAMETER_BUTTON_TEXT"] = "Text der Schaltflдche";
+$MESS["ADV_NIVO_PARAMETER_BUTTON_TEXT_DEF"] = "Details";
+$MESS["ADV_NIVO_PARAMETER_BUTTON_BG_COLOR"] = "Schaltflдchenfarbe";
+$MESS["ADV_NIVO_PARAMETER_BUTTON_LINK_URL"] = "Schaltflдchenlink";
+$MESS["ADV_NIVO_PARAMETER_OVERLAY"] = "Hintergrund";
+$MESS["ADV_NIVO_PARAMETER_OVERLAY_COLOR"] = "Hintergrundfarbe";
+$MESS["ADV_NIVO_PARAMETER_OVERLAY_OPACITY"] = "Hintergrundopazitдt";
+$MESS["ADV_NIVO_PARAMETER_EFFECT"] = "Ьbergang";
+?>

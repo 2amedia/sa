@@ -1,0 +1,52 @@
+.spisok_cena {
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 19px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.orange_sections {
+    color: #FCAF17;
+    font-type:'Open Sans';
+}
+
+
+.inner_section {
+    text-align: center;
+    height: 160px;
+    margin-bottom: 20px;
+	margin-top:10px;
+}
+
+.inner_section span {
+    
+    margin: 10px auto;
+}
+
+.sections a {
+    color: #717375!important;
+    text-decoration: underline;
+}
+
+.novinka_section span:after{
+    content: 'ÕŒ¬»Õ ¿!';
+}
+.action_section span:after {
+    content: '¿ ÷»ﬂ!';
+}
+
+.wrap-img {
+    min-height: 140px;
+    display: block;
+}
+
+.wrap-img:after {
+    content: "";
+    display: table;
+    clear: both;
+}

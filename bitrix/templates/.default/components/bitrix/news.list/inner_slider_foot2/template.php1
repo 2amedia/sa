@@ -1,0 +1,137 @@
+
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://bis-expert.com/bitrix/js/bisexpert.owlslider/owl.carousel.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="/js/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/js/owl.theme.css">
+
+
+ <script type="text/javascript">
+		$.noConflict();
+        (function ($) {
+            $(function() {
+
+                $('#owl-carousel-unic2').owlCarousel({
+                    // Most important owl features
+                    items : "1",
+					loop: true,
+                    itemsCustom : false,
+                    itemsDesktop : [1199,1],
+                    itemsDesktopSmall : [980,1],
+                    itemsTablet: [768,1],
+                    itemsTabletSmall: false,
+                    itemsMobile : [479,1],
+
+                    
+                    itemsScaleUp : false,
+
+                    //Basic Speeds
+                    slideSpeed : 200,
+                    paginationSpeed : 800,
+                    rewindSpeed : 1000,
+
+                    //Autoplay
+                                        autoPlay: 5000,
+                    
+                    stopOnHover : true,
+
+                    // Navigation
+                    navigation : true,
+                    navigationText : ["назад","вперед"],
+                    rewindNav : true,
+                    scrollPerPage : false,
+
+                    //Pagination
+                    pagination : true,
+                    paginationNumbers: false,
+
+                    // Responsive
+                    responsive: true,
+                    responsiveRefreshRate : 200,
+                    responsiveBaseWidth: window,
+
+                    // CSS Styles
+                    baseClass : "owl-carousel",
+                    theme : "owl-theme",
+
+                    //Lazy load
+                    lazyLoad : false,
+                    lazyFollow : true,
+                    lazyEffect : "fade",
+
+                    //Auto height
+                    
+                    //JSON
+                    jsonPath : false,
+                    jsonSuccess : false,
+
+                    //Mouse Events
+                    dragBeforeAnimFinish : true,
+                    mouseDrag :  true,
+                    touchDrag :  true,
+
+                                        transitionStyle: false,
+                    
+                    // Other
+                    addClassActive : false,
+
+                    //Callbacks
+                    beforeUpdate : false,
+                    afterUpdate : false,
+                    beforeInit: function(elem) {
+                                                elem.children().sort(function(){
+                            return Math.round(Math.random()) - 0.5;
+                        }).each(function(){
+                            $(this).appendTo(elem);
+                        });
+                                            },
+                    afterInit: false,
+                    beforeMove: false,
+                    afterMove: function() {
+                                            },
+                    afterAction: false,
+                    startDragging : false,
+                    afterLazyLoad : false
+                });
+
+                
+                //responsive for flash
+                var flashWrapItems = $('.owl-carousel__object-item');
+                var flashItems = flashWrapItems.find("object, embed");
+                var flashFluidItems = flashWrapItems.find('figure');
+
+                if (flashWrapItems.length) {
+                    flashItems.each(function() {
+                        $(this)
+                            // jQuery .data does not work on object/embed elements
+                            .attr('data-aspectRatio', this.height / this.width)
+                            .removeAttr('height')
+                            .removeAttr('width');
+                    });
+
+                    $(window).resize(function() {
+                        var newWidth = flashFluidItems.width();
+                        flashItems.each(function() {
+                            var $el = $(this);
+                            $el
+                                .width(newWidth)
+                                .height(newWidth * $el.attr('data-aspectRatio'));
+                        });
+                    }).resize();
+                }
+            })
+        }(jQuery));
+    </script>
+
+<div class="owl-main-wrap">
+<div id="owl-carousel-unic2" class="owl-carousel owl-theme--responsive owl-theme--arrows owl-theme--center">
+	<?foreach($arResult["ITEMS"] as $arItem):?>
+		<div class="owl-carousel__item">
+			<?if($arItem["PROPERTIES"]["LINK"]["VALUE"]):?><a id="<?=$this->GetEditAreaId($arItem['ID']);?>" href="<?=$arItem["PROPERTIES"]["LINK"]["VALUE"]?>"><?endif?>
+			<img src="<?=$arItem["DETAIL_PICTURE"]["SRC"]?>"  class="adaptive-img" width="99%" >   
+			<?if($arItem["PROPERTIES"]["LINK"]["VALUE"]):?></a><?endif?>    			
+		</div>	
+		<?endforeach;?>
+</div>
+</div>

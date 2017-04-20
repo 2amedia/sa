@@ -1,0 +1,31 @@
+.left_news { margin: 30px 0;
+border-bottom: 2px solid #E9E9E9;}
+.left_news .caption {
+	color: #003366;
+	font-size: 18px;
+	font-style: italic;
+}
+.left_news_item {
+	margin: 20px 0;
+}
+
+.left_news_item .news_name {
+font-size: 15px;
+	text-decoration: underline;
+	display: block;
+	margin-bottom: 10px;
+}
+.left_news_item img {
+	border: 3px solid #E9E9E9;
+	display: block;
+	margin: 10px 0;
+}
+.left_news_item .news_text {
+	font-size: 13px;
+	display: block;
+}
+.left_news .date {
+	font-size: 13px;
+	display: block;
+	margin: 10px 0;
+}

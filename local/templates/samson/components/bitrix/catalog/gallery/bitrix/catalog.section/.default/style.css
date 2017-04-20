@@ -1,0 +1,12 @@
+.nc_row {
+    height: 250px;
+}
+
+.nc_row span {
+    display: block;
+    margin: 10px 0;
+}
+
+.gallery a {
+    color: #717375;
+}

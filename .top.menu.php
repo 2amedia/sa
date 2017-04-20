@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/akcii/", 
+		Array(), 
+		Array("bold"=>"Y"), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Производство", 
+		"/stat/", 
+		Array(), 
+		Array("bold"=>"Y"), 
+		"" 
+	),
+	Array(
+		"Доставка / Сборка / Оплата", 
+		"/dost/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оптовым клиентам", 
+		"/optom/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/kontakts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

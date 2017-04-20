@@ -1,0 +1,284 @@
+/*цвета разделов и меню*/
+/*ДИП*/
+.dip_color h1 {
+    color: #fcaf17;
+    font-type: 'Open Sans';
+}
+
+.dip_color .element span {
+    color: #fcaf17;
+    font-type: 'Open Sans';
+}
+
+.dip_color .spisok_cena {
+    background-color: #fcaf17;
+}
+
+.dip {
+    color: #fcaf17;
+    border-left: 5px solid #fc8d0b;
+}
+
+.dip.parent a {
+    color: #fc8d0b;
+}
+
+.dip .parent_2 > span {
+    color: #fff !important;
+    background-color: #fc8d0b;
+}
+
+.dip .novinka {
+    background-image: url("https://reg.2domains.ru/skins/2domains/images/navigation_sprite.png");
+    background-position: -200px -144px !important;
+}
+.dip_color .tmb-wrap-table div.active {
+    border-color: #fc8d0b!important;
+}
+
+/*цвет МАФ*/
+.maf {
+    color: #008080;
+    border-left: 5px solid #008080;
+}
+
+.maf.parent a {
+    color: #008080 !important;
+}
+
+.maf .parent_2 > span {
+    color: #fff !important;
+    background-color: #008080;
+}
+
+.maf .novinka {
+    background-image: url('img/sea_new.png');
+}
+
+.maf_color .element span {
+    color: #008080;
+    font-type: 'Open Sans';
+}
+
+.maf_color h1 {
+    color: #008080;
+    font-type: 'Open Sans';
+}
+
+.maf_color .tmb-wrap-table div.active {
+    border-color: #008080!important;
+}
+
+/*цвет ДСК*/
+.dsk {
+    color: #93C43B;
+    border-left: 5px solid #93C43B;
+}
+
+.dsk.parent a {
+    color: #93C43B !important;
+}
+
+.dsk .parent_2 > span {
+    color: #fff !important;
+    background-color: #93C43B;
+}
+
+.dsk .novinka {
+    background-image: url('img/green_new.png');
+}
+
+.dsk_color h1 {
+    color: #93C43B;
+}
+
+.dsk_color .element span {
+    color: #93C43B;
+}
+
+.dsk_color .spisok_cena {
+    background-color: #93C43B;
+}
+
+.dsk_color .tmb-wrap-table div.active {
+    border-color: #93C43B!important;
+}
+
+/*цвет ДОП*/
+.dop {
+    color: #2DBBEC;
+    border-left: 5px solid #2DBBEC;
+}
+
+.dop.parent a {
+    color: #2DBBEC !important;
+}
+
+.dop .parent_2 > span {
+    color: #fff !important;
+    background-color: #2DBBEC;
+}
+
+.dop .novinka {
+    background-image: url('img/dop_new.png');
+}
+
+.dop_color .element span {
+    color: #2DBBEC;
+}
+
+.dop_color h1 {
+    color: #2DBBEC;
+}
+.dop_color .tmb-wrap-table div.active {
+    border-color: #2DBBEC!important;
+}
+
+
+
+/*цвет ЗИГ*/
+.zig {
+    color: #708090;
+    border-left: 5px solid #708090;
+}
+
+.zig.parent a {
+    color: #708090 !important;
+}
+
+.zig .parent_2 > span {
+    color: #fff !important;
+    background-color: #708090;
+}
+
+.zig .novinka {
+    background-image: url('img/zig_new.png');
+}
+
+.zig_color .element span {
+    color: #708090;
+}
+
+.zig_color h1 {
+    color: #708090;
+}
+
+.zig_color .tmb-wrap-table div.active {
+    border-color: #708090!important;
+}
+
+.zig_color .spisok_cena {
+    background-color: #708090;
+}
+
+
+/*цвет КУБ*/
+.kub {
+    color: #804000;
+    border-left: 5px solid #804000;
+}
+
+.kub.parent a {
+    color: #804000 !important;
+}
+
+.kub .parent_2 > span {
+    color: #fff !important;
+    background-color: #804000;
+}
+
+.kub .novinka {
+    background-image: url('img/kub_new.png');
+}
+
+.kub_color h1 {
+    color: #804000;
+}
+
+.kub_color .element span {
+    color: #804000;
+}
+
+.kub_color .tmb-wrap-table div.active {
+    border-color: #804000!important;
+}
+
+/*цвет Чердаки*/
+.loft {
+    color: #E0806A;
+    border-left: 5px solid #E0806A;
+}
+
+.loft.parent a {
+    color: #E0806A !important;
+}
+
+.loft .parent_2 > span {
+    color: #fff !important;
+    background-color:#E0806A;
+}
+
+.loft .novinka {
+    background-image: url('img/kub_new.png');
+}
+
+.loft_color h1 {
+    color: #E0806A;
+}
+
+.loft_color .element span {
+    color: #E0806A;
+}
+.loft_color .tmb-wrap-table div.active {
+    border-color: #E0806A!important;
+}
+
+.loft_color .spisok_cena {
+    background-color:#E0806A;
+}
+
+
+/*остальное меню*/
+.other {
+    color: #113573;
+    padding-left: 5px;
+}
+.other.parent  {
+	padding-top:1px !important;
+}
+
+.other.parent a {
+    color: #113573 !important;
+}
+
+.other .parent_2 > span {
+    color: #fff !important;
+    background-color: #113573;
+}
+
+.other > a, .other > a:hover {
+    display: block;
+    font-size: 15px !important;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin: 10px 0 5px !important;
+    color: #113573;
+}
+
+.other_color h1 {
+    color: #113573;
+}
+
+.other_color .element span {
+    color: #113573;
+}
+
+/*акция*/
+.aciya {
+    display: inline-block;
+    background-image: url("https://reg.2domains.ru/skins/2domains/images/navigation_sprite.png");
+	background-position: -200px -129px !important;
+    width: 30px;
+    height: 12px;
+}

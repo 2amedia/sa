@@ -1,0 +1,127 @@
+.catalog-price {
+	 color:red;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.content-text h4{
+font-family: Tahoma,Geneva,sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+	}
+.content-text img{
+	
+    margin: 30px 0 15px;
+    
+    text-align: center;
+	}
+.box_for_gallery {
+	width: 800px;
+	display: inline-block;
+}
+.name_span{
+	font-size:24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+.name_main{
+	font-size:24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:#fcaf17;
+	}
+.contentnames{
+	margin-bottom:40px;
+	float:left;
+	text-align:left;
+	width:320px;
+}
+.history{
+	  background: rgba(0, 0, 0, 0) url("/images/history-img.png") no-repeat scroll 0 0;
+    float: right;
+    margin: 5px 20px 5px 0;
+    padding-left: 40px;
+    width: 90px;
+
+}
+.add2cart{
+	background-color: #ff4239;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.add2cart:hover{
+color: #fff;
+}
+	
+.history a{
+	color:#27397d;
+	font-size:14px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.slide_of_product {
+	text-align:center;
+	width:130px;
+	border: 1px solid #AAA;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin:15px;
+	padding:10px;
+	}
+	
+.slide_img {
+	border: 1px solid #AAA;
+	display: table-cell;
+	vertical-align: middle;
+	width: 128px;
+	}	
+
+.slide_header {
+	display: inline-block;
+	vertical-align: middle;
+	}	
+
+.slide_header_inside {
+	padding:10px;
+	display: inline-block;
+	}
+	
+.slide_img_inside {
+	padding:10px;
+	}	
+
+span.prev {
+width: 42px;
+height: 43px;
+left: 0;
+background: url(/images/prev_1.png) no-repeat;
+cursor: pointer;
+margin-top: 100px;
+}	
+
+span.next {
+width: 42px;
+height: 43px;
+right: 0;
+background: url(/images/next_1.png) no-repeat;
+cursor: pointer;
+margin-top: 100px;
+}

@@ -1,0 +1,1 @@
+<? require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/papacarlostudio.smtpmail/admin/settings.php");?>

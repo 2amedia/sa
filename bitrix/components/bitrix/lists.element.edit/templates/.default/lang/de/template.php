@@ -1,0 +1,33 @@
+<?
+$MESS["CT_BLEE_TOOLBAR_LIST_TITLE"] = "Alle Elemente anzeigen";
+$MESS["CT_BLEE_TOOLBAR_DELETE_TITLE"] = "Element lцschen und zur Liste zurьckkehren";
+$MESS["CT_BLEE_TOOLBAR_DELETE_WARNING"] = "Wollen Sie dieses Element wirklich lцschen?";
+$MESS["CT_BLEE_ADD_BUTTON"] = "Neu";
+$MESS["CT_BLEE_NO_VALUE"] = "(nicht definiert)";
+$MESS["CT_BLEE_BIZPROC_TAB"] = "Geschдftsprozesse";
+$MESS["CT_BLEE_BIZPROC_PUBLISHED"] = "Das Dokument wurde verцffentlicht";
+$MESS["CT_BLEE_BIZPROC_NA_LABEL"] = "Status";
+$MESS["CT_BLEE_BIZPROC_NA"] = "Keine laufenden Geschдftsprozesse.";
+$MESS["CT_BLEE_BIZPROC_NEW"] = "Neuer Geschдftsprozess";
+$MESS["CT_BLEE_BIZPROC_START"] = "Neuen Geschдftsprozess ausfьhren";
+$MESS["CT_BLEE_BIZPROC_STOP_LABEL"] = "Aktion";
+$MESS["CT_BLEE_BIZPROC_STOP"] = "Geschдftsprozess anhalten";
+$MESS["CT_BLEE_BIZPROC_NAME"] = "Geschдftsprozesstitel";
+$MESS["CT_BLEE_BIZPROC_DESC"] = "Beschreibung des Geschдftsprozesses";
+$MESS["CT_BLEE_BIZPROC_DATE"] = "Datum des aktuellen Status";
+$MESS["CT_BLEE_BIZPROC_STATE"] = "Aktueller Status";
+$MESS["CT_BLEE_BIZPROC_RUN_CMD"] = "Befehl ausfьhren";
+$MESS["CT_BLEE_BIZPROC_RUN_CMD_NO"] = "Nicht ausfьhren";
+$MESS["CT_BLEE_BIZPROC_TASKS"] = "Geschдftsprozessaufgaben";
+$MESS["CT_BLEE_FORM_CANCEL"] = "Abbrechen";
+$MESS["CT_BLEE_FORM_CANCEL_TITLE"] = "Nicht speichern und zurьckkehren";
+$MESS["CT_BLEE_CHOOSE_ELEMENT"] = "Aus der Liste auswдhlen";
+$MESS["CT_BLEE_START_TEXT"] = "(Geben Sie den Namen ein)";
+$MESS["CT_BLEE_NO_SEARCH_RESULT_TEXT"] = "Keine Suchergebnisse";
+$MESS["CT_BLEE_ENLARGE"] = "VergrцЯern";
+$MESS["CT_BLEE_DOWNLOAD"] = "Download";
+$MESS["CT_BLEE_TAB_ACCESS"] = "Zugriff";
+$MESS["CT_BLEE_ACCESS_RIGHTS"] = "Nutzergruppen mit Zugriffsberechtigungen fьr die Listen";
+$MESS["CT_BLEE_TOOLBAR_COPY_ELEMENT"] = "Kopieren";
+$MESS["CT_BLEE_TOOLBAR_COPY_ELEMENT_TITLE"] = "Element kopieren";
+?>

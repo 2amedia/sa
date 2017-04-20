@@ -1,0 +1,88 @@
+#left-menu {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li.clear {
+    float: none!important;
+    clear: both!important;
+    display: block;
+}
+
+#left-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none!important;
+}
+
+.parent > a, .parent > a:hover {
+    display: block;
+    font-size: 14px!important;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: none!important;
+    margin: 20px 0 15px;
+}
+
+.parent_2 {
+    margin: 20px 0 5px;
+    padding-left: 10px !important;
+    float: none;
+    display: block!important;
+    width: 100%!important;
+    float: none!important;
+}
+.parent_2 > span {
+	border-radius: 5px;
+    font-size: 14px !important;
+    
+    padding: 2px 10px;
+    text-decoration: none !important;
+}
+
+.parent ul li /*второй уровень*/
+{
+    display: block;
+    float: left;
+    width: 50%;
+    font-size: 14px;
+    padding: 3px 0 3px 8px;
+	line-height: 18px;
+}
+
+.parent ul li a /*второй уровень*/
+{
+   text-decoration:underline;
+   color:#717375 !important;
+}
+
+.parent.item-selected a /*второй уровень*/
+{
+   text-decoration:none !important;
+}
+
+
+/*новинка*/
+.novinka {
+    width: 23px;
+    height: 12px;
+    display: inline-block;
+}
+
+
+
+
+
+/*появление меню*/
+.parent>ul {
+    display: none;
+}
+
+.parent.selected >ul {
+    display: block;
+}
+
+.item-selected {
+	text-decoration:none !important;
+    
+}

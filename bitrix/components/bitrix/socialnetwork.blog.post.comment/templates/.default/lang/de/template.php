@@ -1,0 +1,29 @@
+<?
+$MESS["B_B_MS_LINK"] = "Link";
+$MESS["BPC_MES_EDIT"] = "Bearbeiten";
+$MESS["BPC_MES_SHOW"] = "Anzeigen";
+$MESS["BPC_MES_HIDE"] = "Ausblenden";
+$MESS["BPC_MES_DELETE_POST_CONFIRM"] = "Mцchten Sie den Kommentar wirklich lцschen?";
+$MESS["BPC_MES_DELETE"] = "Lцschen";
+$MESS["B_B_MS_ADD_COMMENT"] = "Kommentar hinzufьgen";
+$MESS["B_B_MS_CAPTCHA_SYM"] = "CAPTCHA-Code";
+$MESS["B_B_MS_NAME"] = "Vorname";
+$MESS["BLOG_MONTH_01"] = "Januar";
+$MESS["BLOG_MONTH_02"] = "Februar";
+$MESS["BLOG_MONTH_03"] = "Mдrz";
+$MESS["BLOG_MONTH_04"] = "April";
+$MESS["BLOG_MONTH_05"] = "Mai";
+$MESS["BLOG_MONTH_06"] = "Juni";
+$MESS["BLOG_MONTH_07"] = "Juli";
+$MESS["BLOG_MONTH_08"] = "August";
+$MESS["BLOG_MONTH_09"] = "September";
+$MESS["BLOG_MONTH_10"] = "Oktober";
+$MESS["BLOG_MONTH_11"] = "November";
+$MESS["BLOG_MONTH_12"] = "Dezember";
+$MESS["BLOG_C_VIEW_ALL"] = "Alle Kommentare anzeigen";
+$MESS["BLOG_C_HIDE"] = "Kommentare ausblenden";
+$MESS["BLOG_C_BUTTON_SEND"] = "Senden ";
+$MESS["BLOG_C_BUTTON_CANCEL"] = "Abbrechen";
+$MESS["BLOG_C_VIEW_OLD"] = "Frьhere Kommentare anzeigen";
+$MESS["BLOG_P_PHOTO"] = "Foto:";
+?>

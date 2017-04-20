@@ -1,0 +1,183 @@
+.section_item {
+    height: 400px;
+    width: 100%;
+    display: block;
+    border: 1px solid #eeeeee;
+    margin: 20px 0;
+}
+
+.section_item a, .section_item a:hover {
+    text-decoration: none!important;
+}
+
+.section_image {
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-size: contain!important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    position: relative;
+}
+
+.labels {
+    position: absolute;
+    top:15px;
+    left: 0;
+}
+
+.action , .new , .dost {
+    display: block;
+    width: 82px;
+     height: 38px;
+    margin-bottom: 2px;
+    background-repeat: no-repeat!important;
+    background: url('images/plashki.png');
+}
+
+.new {
+    background-position: 0 0;
+}
+
+.action {
+    background-position:0 -40px;
+}
+
+.dost {
+    background-position: 0 -80px;
+    
+}
+
+.old-price {
+    color: #e54448;
+    text-decoration: line-through;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 20px;
+}
+
+.price  {
+    color: #676767;
+    font-size: 22px;
+    line-height: 28px;
+    padding-left: 20px;
+}
+
+.skidka {
+    position: absolute;
+    right: 15px;
+    bottom: 60px;
+    width: 68px;
+    height: 37px;
+    background-repeat: no-repeat !important;
+    background: url('images/plashka_sale.png');
+    color: #fff!important;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.section_name {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #676767;
+    text-decoration: underline;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+    /* Не обязательно, но может понадобиться. Например, для ссылок */
+    display: block;
+}
+h1.name_sec {
+    color: #676767;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.slider-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+
+.progress_bar {
+    height: 1px;
+    background-color: #0A3A68;
+    width:0;
+    display: block;
+    margin: 0 10px;
+}
+
+.item {
+    width: 260px!important;
+    height: 300px!important;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.item div {
+    width: 100%;
+    height: 100%;
+    background-size: contain!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    display: block;
+}
+
+.bx-wrapper {
+    box-shadow: none!important;
+    border: 0!important;
+    margin: 0;
+    padding: 0;
+}
+.slider-container {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.sorting {
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.sort_item {
+    display: block;
+    color: #676767;
+    background: #fff;
+    padding: 5px 5px 5px 10px;
+    float: left;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.sort_item .close_im {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-left:20px;
+    margin-top: 7px;
+    float: right;
+    visibility: hidden;
+}
+
+.sort_item.active_f {
+    background-color: #e54448;
+    color: #fff;
+}
+
+.sort_item.active_f .close_im {
+    visibility: visible;
+    background: url('images/x.png') no-repeat center;
+}
+
+.section_image .bx-prev {
+    background: url('images/left.svg') no-repeat center!important;
+}
+
+.section_image .bx-next {
+    background: url('images/right.svg') no-repeat center!important;
+}

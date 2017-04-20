@@ -1,0 +1,12 @@
+.nc_row {
+    height: 3400px;
+}
+
+.nc_row span {
+    display: block;
+    margin: 20px 0;
+}
+
+.doc a {
+    color: #717375;
+}

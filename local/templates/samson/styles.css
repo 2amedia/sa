@@ -1,0 +1,3 @@
+/* здесь только стили контентной области, без глобальных переопределений */
+.active_m a {color:#ffe258 !important}
+.left_menu .lev_one.uncollapsed .inner ul li a{text-decoration:none}

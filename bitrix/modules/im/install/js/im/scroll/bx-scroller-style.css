@@ -1,0 +1,79 @@
+.bx-scroller{overflow:hidden; position:relative; zoom:1; cursor:default;}
+.bx-scroller-content-wrap { position:relative;}
+.bx-scroller-content{ position:absolute; left:0; width:100%; zoom:1;}
+.scroll-img {width:7px; margin:0; border:none; padding:0; display:block;}
+.bx-scroller-dragger-wrapper {margin-top:18px; cursor:default; width:23px; position:absolute; top:0; right:0;}
+.bx-scroller-dragger {cursor:default; top:0; position:absolute; width:23px; z-index:5;}
+.bx-scroller-line {background:#e5e5e5; display:block; cursor:default; left:11px; top:0; font-size:0; line-height:0; position:absolute; width:1px; z00m:1;}
+.bx-scroller-dragger-top,
+.bx-scroller-dragger-bottom {background-color:#dedede; border-left:1px solid #eee; border-right:1px solid #eee; display:block; margin-left:8px; height:1px; width:5px; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; user-select: none; overflow:hidden; zoom:1;}
+.bx-scroller-dragger-cont {background-color:#dedede; display:block; font-size:0; margin-left:8px; width:7px; overflow:hidden;}
+* html .bx-scroller-dragger-top,
+* html .bx-scroller-dragger-bottom {width:7px;}
+.bx-dragger-hover .bx-scroller-dragger-top,
+.bx-dragger-hover .bx-scroller-dragger-bottom {margin-left:6px; width:9px;}
+* html .bx-dragger-hover .bx-scroller-dragger-top,
+* html .bx-dragger-hover .bx-scroller-dragger-bottom {width:11px;}
+.bx-dragger-hover .bx-scroller-dragger-cont {margin-left:6px; width:11px;}
+.bx-dragger-hover .scroll-img {width:11px;}
+
+.bx-scroller-active .bx-scroller-dragger-top,
+.bx-scroller-active .bx-scroller-dragger-bottom {background-color:#d1d1d1; margin-left:6px;  width:9px;}
+* html .bx-scroller-active .bx-scroller-dragger-top,
+* html .bx-scroller-active .bx-scroller-dragger-bottom {background-color:#d1d1d1; margin-left:6px;  width:11px;}
+.bx-scroller-active .bx-scroller-dragger-cont {background-color:#d1d1d1; margin-left:6px;  width:11px;}
+.bx-scroller-active .scroll-img { width:11px;}
+
+.bx-scroller-startArow-wrap,
+.bx-scroller-finishArow-wrap {background:url("scrolling-arrows.png") no-repeat 20px 20px; cursor:pointer; height:15px; left:0; font-size:0; width:23px; position:absolute;}
+.bx-arrowSt-hover,
+.bx-arrowFin-hover {background-position:4px -21px;}
+.bx-scroller-startArow-wrap {top:-16px;}
+.bx-scroller-finishArow-wrap {bottom:-16px;}
+
+.bx-scroller-startArow,
+.bx-scroller-finishArow {background:url("scrolling-arrows.png") no-repeat; height:4px; width:7px; position:absolute;}
+.bx-scroller-startArow {background-position:-2px -5px; left:8px; top:5px;}
+.bx-scroller-finishArow {background-position:-2px 0; left:8px; top:6px;}
+.bx-arrowSt-hover .bx-scroller-startArow {background-position:-8px -11px;}
+.bbx-arrowFin-hover .bx-scroller-finishArow {background-position:0 -11px;}
+
+.bx-scroller-horizontal {overflow:hidden; position:relative;}
+.bx-scroller-horizontal .bx-scroller-content-wrap {margin:0; overflow:visible;}
+.bx-scroller-horizontal .bx-scroller-content {margin:0; left:auto; top:0; width:auto; }
+.bx-scroller-horizontal .bx-scroller-dragger-wrapper {height:23px; position:absolute; top:auto; margin:0; bottom:0; left:18px; right:auto;}
+.bx-scroller-horizontal .bx-scroller-dragger {top:0; left:0; height:23px;}
+
+.bx-scroller-horizontal .bx-scroller-dragger-top,
+.bx-scroller-horizontal .bx-scroller-dragger-bottom {background-color:#e3e3e3; border-top:1px solid #eee; border-bottom:1px solid #eee; border-left:none; border-right:none; display:inline-block; margin:8px 0 0; height:5px; vertical-align:top; width:1px;}
+* html .bx-scroller-horizontal .bx-scroller-dragger-top,
+* html .bx-scroller-horizontal .bx-scroller-dragger-bottom {height:7px;}
+.bx-scroller-horizontal .bx-scroller-dragger-cont {background-color:#e3e3e3; display:inline-block; margin:8px 0 0; height:7px; vertical-align:top;}
+
+.bx-scroller-horizontal .bx-dragger-hover {top:0;}
+.bx-scroller-horizontal .bx-dragger-hover .bx-scroller-dragger-top,
+.bx-scroller-horizontal .bx-dragger-hover .bx-scroller-dragger-bottom {width:1px; height:9px; margin-top:6px;}
+* html .bx-scroller-horizontal .bx-dragger-hover .bx-scroller-dragger-top,
+* html .bx-scroller-horizontal .bx-dragger-hover .bx-scroller-dragger-bottom {height:11px;}
+.bx-scroller-horizontal .bx-dragger-hover .bx-scroller-dragger-cont {height:11px; margin-top:6px;}
+
+.bx-scroller-horizontal .bx-scroller-active .bx-scroller-dragger-top,
+.bx-scroller-horizontal .bx-scroller-active .bx-scroller-dragger-bottom {background-color:#d1d1d1; height:9px; margin:6px 0 0; width:1px;}
+* html .bx-scroller-horizontal .bx-scroller-active .bx-scroller-dragger-top,
+* html .bx-scroller-horizontal .bx-scroller-active .bx-scroller-dragger-bottom {height:11px;}
+.bx-scroller-horizontal .bx-scroller-active .bx-scroller-dragger-cont {background-color:#d1d1d1; height:11px; margin:6px 0 0;}
+
+.bx-scroller-horizontal .bx-scroller-line{left:0; top:11px; height:1px;}
+.bx-scroller-horizontal .bx-scroller-startArow-wrap,
+.bx-scroller-horizontal .bx-scroller-finishArow-wrap {top:0; bottom:auto; height:23px; width:18px;}
+.bx-scroller-horizontal .bx-scroller-startArow-wrap { left:-16px;}
+.bx-scroller-horizontal .bx-scroller-finishArow-wrap { left:auto; right:-19px; top:0;}
+
+.bx-scroller-horizontal .bx-scroller-startArow,
+.bx-scroller-horizontal .bx-scroller-finishArow {background:url("scrolling-arrows.png") no-repeat; height:7px; width:4px; position:absolute;}
+.bx-scroller-horizontal .bx-scroller-startArow {background-position:-7px -1px; left:5px; top:8px;}
+.bx-scroller-horizontal .bx-scroller-finishArow {background-position:1px -1px; left:6px; top:8px;}
+.bx-scroller-horizontal .bx-arrowSt-hover,
+.bx-scroller-horizontal .bx-arrowFin-hover {background-position:0 -17px;}
+.bx-scroller-horizontal .bx-arrowSt-hover .bx-scroller-startArow{background-position:-14px -6px;}
+.bx-scroller-horizontal .bx-arrowFin-hover .bx-scroller-finishArow {background-position:-13px 0;}
