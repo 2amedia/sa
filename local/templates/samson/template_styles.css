@@ -1353,7 +1353,7 @@ http://flickity.metafizzy.co
 	transition: 300ms;
 
 }
-.sct-page-card .page-card .info-list li:hover {
+.sct-page-card .page-card:not(.open) .info-list li:hover {
 	padding-left: 30px;
 	border-left: solid 1px grey;
 }
@@ -1374,7 +1374,7 @@ http://flickity.metafizzy.co
 	height: 32px;
 	z-index: 2;
 }
-.sct-page-card .page-card .info-list li:hover .mini i::after{
+.sct-page-card .page-card:not(.open) .info-list li:hover .mini i::after{
 	content: '';
 	display: block;
 	height: 20px;
@@ -1415,7 +1415,7 @@ http://flickity.metafizzy.co
 	max-width: 70%;
 	height: 100%;
 	object-fit: contain;
-	margin-right: 30px;
+	padding-right: 40px;
 }
 .sct-page-card .flickity-viewport{
 	padding-right: 30px;
@@ -1490,6 +1490,12 @@ http://flickity.metafizzy.co
 	width: 100%;
 }
 
+.sct-page-card .page-card.open .full{
+	opacity: 1;
+	max-height: 700px;
+	position: static;
+	margin: 20px;
+}
 .sct-page-card .page-card.open .slider-wrap{
 	position: relative;
 	width: 100%;

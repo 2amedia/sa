@@ -88,6 +88,7 @@ $APPLICATION->SetTitle("Производство детских игровых �
 			document.querySelectorAll('.show-full').forEach(function (el) {
 				el.onclick = function () {
 					this.closest('.page-card').classList.add('open');
+					this.style.display = 'none';
 				}
 			});
 		</script>
